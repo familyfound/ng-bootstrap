@@ -14,7 +14,7 @@
 ### bootstrap(template, parentDiv, app, placement)
 
     template:
-     - either the string of html, or an element whose innerHTML will be used
+     - either the string of html, or an element which will be used
     parentDiv: selector OR element
     app: string or list - passed to angular.boostrap
     placement:

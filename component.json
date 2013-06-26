@@ -4,7 +4,10 @@
   "description": "Angular bootstrapper - take a template, inject into the page, and bootstrap the app",
   "version": "0.0.1",
   "keywords": [],
-  "dependencies": {},
+  "dependencies": {
+    "component/query": "*",
+    "jabapyth/angularjs": "*"
+  },
   "development": {},
   "license": "MIT",
   "main": "index.js",

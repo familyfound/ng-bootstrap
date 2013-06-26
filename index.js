@@ -3,7 +3,7 @@ var query = require('query')
   , angular = require('angularjs');
 
 // template:
-//  - either the string of html, or an element whose innerHTML will be used
+//  - either the string of html, or an element which will be used
 // parentDiv: selector OR element
 // app: string or list - passed to angular.boostrap
 // placement:
@@ -15,10 +15,11 @@ function bootstrap(template, parentDiv, app, placement) {
   var div = document.createElement('div')
     , sel;
   if (typeof (template) !== 'string' && template.innerHTML) {
-    template = template.innerHTML;
+    div = template;
+  } else {
+    div.innerHTML = template;
+    div = div.firstElementChild;
   }
-  div.innerHTML = template;
-  div = div.firstElementChild;
   if (typeof (parentDiv) === 'string') {
     sel = parentDiv;
     parentDiv = query(parentDiv);
