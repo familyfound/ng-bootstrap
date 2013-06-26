@@ -1,0 +1,14 @@
+{
+  "name": "ng-bootstrap",
+  "repo": "familyfound/ng-bootstrap",
+  "description": "Angular bootstrapper - take a template, inject into the page, and bootstrap the app",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
