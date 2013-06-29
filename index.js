@@ -49,6 +49,8 @@ module.exports.append = function (template, parentDiv, app) {
   return bootstrap(template, parentDiv, app, 'last');
 };
 
+module.exports.last = module.exports.append;
+
 module.exports.first = function (template, parentDiv, app) {
   return bootstrap(template, parentDiv, app, 0);
 };
