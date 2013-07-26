@@ -6,7 +6,7 @@
   "keywords": [],
   "dependencies": {
     "component/query": "*",
-    "jabapyth/angularjs": "*"
+    "jaredly/angularjs": "*"
   },
   "development": {},
   "license": "MIT",
